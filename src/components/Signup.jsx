@@ -84,7 +84,7 @@ const Signup = () => {
               </div>
 
               <div className="flex justify-end">
-                <p className="mt-3">Already have an account?</p>
+                <p className="mt-3 lg:text-lg text-sm">Already have an account?</p>
                 <button className="btn">Log in</button>
               </div>
             </div>
