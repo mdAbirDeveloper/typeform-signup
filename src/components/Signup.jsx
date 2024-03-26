@@ -182,9 +182,9 @@ const Signup = () => {
                 <div className="flex">
                   <button
                     onClick={toggleDropdownforOption}
-                    className="toggle-button text-xl"
+                    className="toggle-button text-lg"
                   >
-                    {isDropdownOpen ? "Hide" : "Show"} see options
+                    {isDropdownOpen ? "see" : "hide"} options
                   </button>
                   <FaChevronDown className="text-sm mt-2 ml-3" />
                 </div>
