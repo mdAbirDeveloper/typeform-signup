@@ -228,7 +228,7 @@ const Signup = () => {
                         <label className="mr-3 text-xl">
                           <input
                             type="radio"
-                            name="one"
+                            name="two"
                             value="Yes"
                             className="mr-3"
                             style={{ width: "20px", height: "20px" }}
@@ -238,7 +238,7 @@ const Signup = () => {
                         <label className="text-xl">
                           <input
                             type="radio"
-                            name="one"
+                            name="two"
                             value="No"
                             className="mr-3"
                             style={{ width: "20px", height: "20px" }}
@@ -256,7 +256,7 @@ const Signup = () => {
                         <label className="mr-3 text-xl">
                           <input
                             type="radio"
-                            name="one"
+                            name="three"
                             value="Yes"
                             className="mr-3"
                             style={{ width: "20px", height: "20px" }}
@@ -266,7 +266,7 @@ const Signup = () => {
                         <label className="text-xl">
                           <input
                             type="radio"
-                            name="one"
+                            name="three"
                             value="No"
                             className="mr-3"
                             style={{ width: "20px", height: "20px" }}
