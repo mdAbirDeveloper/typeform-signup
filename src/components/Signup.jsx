@@ -10,12 +10,8 @@ const Signup = () => {
   const [isOpen, setIsOpen] = useState(false); // State to manage dropdown visibility
   const [selectedLanguage, setSelectedLanguage] = useState(null); // State to track selected language
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
-
   const [showPassword, setShowPassword] = useState(false);
 
-  const togglePasswordVisibility = () => {
-    setShowPassword(!showPassword);
-  };
 
   const toggleDropdown = () => {
     setIsOpen(!isOpen); // Toggle dropdown for language
@@ -38,6 +34,11 @@ const Signup = () => {
   //drop-down for asking three question's
   const toggleDropdownforOption = () => {
     setIsDropdownOpen(!isDropdownOpen);
+  };
+
+  //password visibility function
+  const togglePasswordVisibility = () => {
+    setShowPassword(!showPassword);
   };
 
   return (
@@ -175,7 +176,7 @@ const Signup = () => {
                 )}
               </div>
 
-              
+
 
               <div className="">
                 <div className="flex">
